@@ -10,8 +10,8 @@ module.exports = {
   mode: isProductionMode ? 'production' : 'development', // режим
   entry: './src/index.tsx', // путь к головному или входному файлу проекта
   output: {
-    path: path.resolve(__dirname, '/dist'), // что и в какой папке будет у нас собираться
-    filename: './bundle.js', // что и в какой папке будет у нас собираться
+    path: path.resolve(__dirname, 'dist'), // что и в какой папке будет у нас собираться
+    filename: 'bundle.js', // что и в какой папке будет у нас собираться
     publicPath: '/',
     clean: true,
   },
