@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f37b83;
+  padding: 20px 0;
+}
+h4 {
+  font-size: 28px;
+}
+.contant {
+  height: 100vh;
+  margin-left: 320px;
+  width: calc(100% - 320px);
+}
+.privacyWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.privacy {
+  background-color: white;
+  width: 70%;
+  padding: 20px;
+  margin: 20px;
+}
+@media screen and (max-width: 1360px) {
+  .contant {
+    margin-left: 90px;
+    width: calc(100% - 90px);
+  }
+}
+@media screen and (max-width: 1020px) {
+  .contant {
+    margin-left: 0;
+    width: 100%;
+  }
+}

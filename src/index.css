@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #a88590;
+  background-color: #302729;
+  overflow-x: hidden;
+}
