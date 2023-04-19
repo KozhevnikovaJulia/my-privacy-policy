@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'), // что и в какой папке будет у нас собираться
     filename: 'bundle.js', // что и в какой папке будет у нас собираться
-    publicPath: '/',
+    publicPath: '/my-privacy-policy/',
     clean: true,
   },
   devtool: 'inline-source-map', // будет показывать не в bundle а в консоли ошибки и в какой строке ошибки
