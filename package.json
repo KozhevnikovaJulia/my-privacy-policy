@@ -1,8 +1,6 @@
 {
   "name": "my-privacy-policy",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "homepage": "https://KozhevnikovaJulia.github.io/my-privacy-policy",
   "scripts": {
     "start": "webpack --mode development",
