@@ -1,7 +1,6 @@
 {
   "name": "my-privacy-policy",
   "short_name": "my-privacy-policy",
-  "description": "",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",
